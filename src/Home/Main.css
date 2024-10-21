@@ -1,0 +1,98 @@
+.main-banner {
+    position: relative; /* This ensures the pseudo-element positions relative to this container */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(./image/fif.webp);
+    height: 1350px;
+  }
+  
+  .main-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.749); /* Dark overlay with 60% opacity */
+    z-index: 1; /* Ensures the overlay is above the background image but below content */
+  }
+  
+  .main-banner .container {
+    position: relative;
+    z-index: 2; /* Ensures content is above the overlay */
+  }
+  
+  .main-banner .top-text {
+    text-align: center;
+    padding-top: 300px ;
+  }
+  
+  .main-banner .top-text h6 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .main-banner .top-text h2 {
+    color: #ffffff;
+    font-size: 54px; /* légère augmentation de la taille */
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* ajoute une ombre portée pour le contraste */
+
+  }
+  
+  
+  .main-banner .header-text p {
+    color: #ffffff;
+    font-size: 21px; /* légère augmentation de la taille */
+    line-height: 1.8; /* espacement des lignes pour la lisibilité */
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* ajoute une ombre portée pour le contraste */
+
+  }
+  .main-banner .header-text h3 {
+    color: #ffffff;
+    font-size: 35px; /* ajustement de la taille */
+    margin-top: 25px;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .main-banner .main-action {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .main-banner .primary-button {
+    padding: 12px 35px; /* légèrement plus grand pour un clic facile */
+    background-color: #343a40; /* couleur plus sombre pour plus de contraste */
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none; /* supprime les bordures par défaut */
+    border-radius: 6px;
+    font-size: 18px; /* texte du bouton plus grand */
+    letter-spacing: 1px; /* espacement des lettres */
+    transition: all 0.3s ease; /* transition douce pour tout changement */
+    width: 20%;
+  }
+  
+  .main-banner .primary-button i {
+    margin-right: 10px;
+  }
+  
+  .main-banner .primary-button:hover {
+    background-color: #495057; /* couleur légèrement plus claire au survol */
+    transform: scale(1.05); /* effet de zoom au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ombre portée pour le relief */
+
+  }
+  
+  

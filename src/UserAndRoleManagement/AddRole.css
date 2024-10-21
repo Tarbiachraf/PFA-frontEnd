@@ -1,0 +1,38 @@
+.addRole .role-table .custom-card {
+    max-height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.addRole .card-header-custom {
+    background-color: #343A40; /* Using the existing dark color */
+}
+
+.addRol .card-body-custom {
+    background-color: #F8F9FA; /* Using the existing card background color */
+}
+
+.addRol .btn-add-role {
+    background-color: #28A745; /* Using the existing add button color */
+    color: white;
+}
+
+.addRol .table .thead-custom {
+    background-color: #6c757d; /* Using the existing table header color */
+}
+
+.addRol .badge-privilege {
+    background-color: #007bff; /* Bootstrap primary color for badges */
+    margin: 0.25em;
+}
+
+.addRol .action-cell .btn {
+    margin-right: 0.5em;
+}
+
+.addRol .btn-edit {
+    color: #FFC107; /* Using the existing edit color */
+}
+
+.addRol .btn-delete {
+    color: #DC3545; /* Using the existing delete color */
+}

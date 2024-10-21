@@ -1,0 +1,114 @@
+.footer {
+  background-color: #2b2d42; /* Changez ceci pour la couleur bleue que vous voulez */
+  color: white;
+  padding: 20px;
+  display: block;
+
+}
+.ffff{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footer-section h2, .footer-section h3 {
+  color: #fffffc; /* Or pour les titres, si vous le souhaitez */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section button {
+  background-color:#a7a0d6; /* Bouton jaune */
+  color: #000;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+}
+
+
+.footer-section button:hover {
+  background-color: rgb(207, 206, 224); /* Couleur de survol pour le bouton */
+}
+.footer-section input {
+  border: 1px solid #ffffff;
+  background-color: #FFF;
+  outline: none;
+  width: 100%;
+  height: 25%;
+  padding: 7px ;
+  color: #ffffff;
+  
+}
+.footer-section h2 {
+  padding: 20px;
+}
+/* Style de base pour les balises <li> */
+li {
+  list-style-type: none; /* Supprime les puces par défaut */
+  margin-bottom: 10px; /* Ajoute un espacement en bas */
+}
+
+/* Style des liens à l'intérieur des balises <li> */
+li a {
+  text-decoration: none; /* Supprime les soulignements des liens */
+  color: #ffffff; /* Couleur du texte */
+  
+  font-family: Arial, sans-serif; /* Police de caractères */
+  padding: 5px 10px; /* Ajoute un padding intérieur */
+  display: inline-block; /* Affiche les liens en ligne */
+  
+  border-radius: 5px; /* Ajoute des coins arrondis */
+  transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+/* Style des liens au survol */
+li a:hover {
+  color: #ddd; /* Changement de couleur au survol */
+}
+.social-icons ul   {
+  display: flex;
+  justify-content: space-around;
+}
+.social-icons ul li:hover{
+  
+}
+.social-icons ul li a:hover{
+  color: #007bff; /* Couleur de survol */
+  background-color: #ffffff;
+}
+
+/* Adaptations pour mobiles ou petits écrans */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.footer_section {
+
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.footer_section p {
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer_section a {
+  color: #ffffff;
+}

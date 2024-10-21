@@ -1,0 +1,511 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.my-aside{
+  padding :"20px";
+}
+
+.my-footer{
+  margin-bottom: 0px;
+}
+/* style management of product*/
+.ajouter-produit{
+  margin-left:17.7%;
+  
+  padding:20px;
+}
+.list-produit{
+  margin-left:18%;
+  padding:10px;
+  padding-bottom:300px;
+}
+
+.modefier-produit{
+  margin-left:17.7%;
+  padding:10px;
+  
+}
+.ajouter-categorie{
+  margin-left:17.8%;
+  padding:10px;
+  margin-bottom: 100px;
+  
+  padding-bottom: 200px;
+}
+.list-categorie{
+  margin-left:18%;
+  padding:10px;
+  margin-bottom: 300px;
+    
+}
+.modefie-categorie{
+  margin-left:17.7%;
+  padding:10px;
+  margin-bottom: 300px;
+ 
+}
+
+.card-produits{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  max-width: 80%;
+}
+.card-style{
+  
+}
+/* end style management of product*/
+
+/*start style of clients*/
+.ajouter-client{
+  margin-left:17.7%;
+  padding:10px;
+  
+}
+.list-client{
+  margin-left:17.7%;
+  padding:10px;
+  margin-bottom: 400px;
+}
+.form-list-client{
+   margin-bottom: 0px;
+}
+.modefier-client{
+  margin-left:17.7%;
+  padding:10px;
+ 
+}
+/*end style of clients */
+
+/*start style of commande*/
+.ajouter-cmd{
+ 
+  margin-left:17.7%;
+  padding:10px;
+  padding-bottom:100px;
+  width:85%;
+}
+.ajouter-cmd-form{
+   
+}
+.list-addC-client{
+  margin-left:17.7%;
+  padding :10px;
+  padding-bottom:280px;
+}
+.list-commande{
+  margin-left:17.7%;
+  padding:10px;
+  margin-bottom:280px;
+  width:80%;
+ 
+}
+.btn-ajouter-cmd{
+  margin-bottom:10px;
+  
+}
+.btn-reset-cmd{
+  margin-bottom: 10px;
+}
+.modefier-cmd{
+
+  margin-left:17.7%;
+  padding:10px;
+  padding-bottom:100px;
+  width:85%;
+}
+
+/*end style of commande*/
+/*start style ajouter fournisseur*/
+.ajouter-four{
+
+  margin-left:17.7%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:45px;
+  width:85%;
+}
+
+.list-fournisseur{
+  margin-left:17.7%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:400px;
+}
+.details{
+  margin-left:13%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:300px;
+}
+
+/*ens style ajouter fournisseur*/
+
+/*start commande fournisseur*/
+.ajouter-cmd-four{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:300px;
+}
+.bon-cmd-document{
+  width: 82.5%;
+  margin-left:17.5%;
+  padding-bottom:300px;
+
+}
+.create-email{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:450px;
+}
+.interface-container {
+  margin-left:22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding-bottom:470px;
+  width: 70%;
+
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+.ddddd {
+  margin-top: 200px;
+}
+.action-button {
+  border-radius: 20px; /* ou n'importe quelle valeur de border radius souhaitée */
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+  background-color: #159B9B; /* Vert */
+  color: #fff;
+}
+.emaile-form{
+  background-color: #e8f0fe;
+}
+.Myfont{
+  font-family:' Arial,  sans-serif';
+}
+.details-cmd{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:400px;
+}
+
+
+/*end commande fournisseur*/
+
+/*start bon livraison*/
+.ajouter-bonLivraison{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:400px;
+}
+
+/*end bon livraison*/
+
+/*start facture */
+.ajouter-facture{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:400px;
+}
+.factureDocument{
+  width: 82.5%;
+  margin-left:17.5%;
+  padding-bottom:300px;
+}
+
+
+/*end facture*/
+
+
+/*style of contacter four */
+.email-form {
+  width: 80%;
+  padding: 20px;
+  border-radius: 8px;/* Replace 'your-image-url.jpg' with your actual image path */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #ffffff;
+}
+
+.email-form input, .email-form textarea {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  border: 1px solid #ddd;
+  color: #1b1818;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.email-form label {
+  color: #141313; /* White color for labels for better visibility */
+}
+
+.email-form button {
+  background-color: #0f355f; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.email-form button:hover {
+  background-color: #0056b3;
+}
+.card-mail{
+  background-image: url('/public/dist/img/email3.webp');
+}
+
+/*end style of contacter four*/
+
+/*start of styling the data table */
+.custom-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: 'Roboto', sans-serif; /* Stylish and modern font */
+  font-size: 14px;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px 16px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table th:last-child,
+.custom-table td:last-child {
+  border-right: none;
+}
+
+.custom-table th {
+  background-color: #3e5368;
+  color: white;
+  font-weight: 500; /* Slightly bolder for headers */
+  position: relative;
+}
+
+.custom-table th::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  /* Icon path if necessary */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.custom-table th:hover {
+  background-color: #1f3a21;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.custom-table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.custom-table tr:hover {
+  background-color: #ddd;
+}
+
+.custom-table th:first-child,
+.custom-table td:first-child {
+  border-left: none;
+}
+
+.custom-table td {
+  font-weight: 400; /* Lighter font weight for data cells */
+  position: relative;
+}
+
+.custom-table .action-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #747874;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-table .action-button:hover {
+  background-color: #d0d7d0;
+}
+
+/*end of styling the data table */
+
+/*style card*/
+.cardHeader{
+  background-color: #2C3E50;
+}
+.cardBody{
+  background-color: #ECF0F1;
+}
+
+/*end style card*/
+
+/*strat style of profile */
+body {
+  background-color: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #BA68C8
+}
+
+.profile-button {
+  background: rgb(99, 39, 120);
+  box-shadow: none;
+  border: none;
+  margin-top:0px;
+}
+
+.profile-button:hover {
+  background: #682773
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none;
+  
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer
+}
+
+.labels {
+  font-size: 11px
+}
+
+.add-experience:hover {
+  background: #BA68C8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #BA68C8
+}
+.Myprofil{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:400px;
+}
+.left-side{
+  background-color: #f0f0f0; /* Light grey background for image side */
+}
+.right-side{
+ 
+  
+}
+
+.ajouter-user{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:120px;
+}
+.ajouter-role{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:180px;
+}
+.ajouter-entreprise{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:106px;
+}
+.ajouter-terms{
+  margin-left:17.5%;
+  margin-top: 0px;
+  padding:10px;
+  padding-bottom:50px;
+}
+/*end style of profile*/
+
+/*style of select*/
+.monSelect {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.monSelect__control {
+  background-color: #fff;
+  height: 200px; /* Hauteur ajustée à 200px */
+  min-height: 200px; /* Assurez-vous que le minimum est aussi à 200px */
+  display: flex;
+  align-items: center; /* Centrage vertical des éléments à l'intérieur */
+}
+
+.monSelect__value-container {
+  padding: 0 8px;
+  height: 100%; /* Utilise toute la hauteur du contrôle */
+  display: flex;
+  align-items: center; /* Centrage vertical des valeurs/tags */
+}
+
+.monSelect__multi-value {
+  background-color: #e0e0e0;
+  height: auto; /* Hauteur automatique pour s'adapter au contenu */
+  margin: 5px; /* Ajoutez une marge pour un peu d'espace autour des tags */
+}
+
+.monSelect__multi-value__label {
+  padding: 5px;
+}
+
+.monSelect__multi-value__remove {
+  color: #666;
+  cursor: pointer;
+}
+
+.monSelect__dropdown-indicator {
+  color: #888;
+}
+
+
+
+
+/*end of slect*/

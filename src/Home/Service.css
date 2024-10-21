@@ -1,0 +1,170 @@
+
+.popular-categories {
+  /*display: flex;*/
+  margin-top: 120px;
+  margin-bottom: 200px;
+  max-width: 1600px; /* ou la largeur maximale que vous voulez */
+  margin-left: auto;
+  margin-right: auto;
+  }
+.popular-categories .containere {
+  display: flex;
+}  
+  .popular-categories .section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .popular-categories .naccs {
+    position: relative;
+    background-color: #2b2d42;
+    border-radius: 7px;
+  }
+  .popular-categories h2 {
+    font-size: 30px;
+  }
+
+  .popular-categories .containere .row .col-lg-12 .naccs .grid .row {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+
+  }
+  
+  .popular-categories .containere .row d {
+    font-size: 50px;
+  } 
+
+  .popular-categories .grid {
+    height: 509px;
+  }
+  .popular-categories .menu {
+    display: flex;
+    flex: 1; /* Ajustez la proportion du menu par rapport au contenu */
+    flex-direction: column;
+    width: 30%; /* Réglez ceci selon la largeur que vous souhaitez pour le menu */
+  }
+  
+  .popular-categories .naccs .menu div.first-thumb {
+    border-top-left-radius: 7px;
+  }
+  
+  .popular-categories .naccs .menu div.last-thumb {
+    margin-bottom: 0px;
+    border-bottom-left-radius: 7px;
+  }
+  .popular-categories .containere .thumb {
+    display: flex; /* Utilisez flexbox pour aligner l'icône et le texte */
+    align-items: center; /* Centre les éléments verticalement */
+    justify-content: start; /* Alignez les éléments à gauche */
+    font-size: 18px; /* Agrandissez la taille de la police pour le texte */
+    padding: 15px; /* Ajoutez du padding pour plus d'espace autour du texte et de l'icône */
+    cursor: pointer; /* Assure que le curseur indique une action cliquable */
+    width: 100%; /* Assure que l'élément utilise toute la largeur disponible */
+    transition: background-color 0.3s ease; /* Animation douce pour le changement de couleur de fond */
+  }
+  
+  .popular-categories .containere .thumb .fa {
+    font-size: 333px; /* Agrandissez la taille de l'icône FontAwesome */
+    margin-right: 100px; /* Ajoutez de l'espace entre l'icône et le texte */
+  }
+  
+  .popular-categories .content {
+    padding: 20px;
+    width: 70%; /* Réglez ceci selon la largeur que vous souhaitez pour le contenu */    text-align: left;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .popular-categories .content h4 {
+    color: #fff;
+    font-size: 24px; /* Ajustez la taille de police au besoin */
+    margin-bottom: 0px;
+    padding: 30px 60px 10px 60px ;
+  }
+  
+  .popular-categories .content p {
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 24px; /* ou la valeur exacte pour l'espacement entre les lignes */
+    padding: 30px 60px;
+  }
+
+  .popular-categories .content .right-image {
+    flex: 2; /* Prend deux fois plus d'espace que le texte */
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  
+  .popular-categories .content .right-image img {
+    width: 100%; /* L'image utilise toute la largeur disponible de son conteneur */
+    max-width: 100%;
+    height: auto; /* Maintient le ratio de l'image */
+  
+    }
+  .popular-categories .naccs .menu div {
+    color: #fff;
+    font-size: 15px;
+    background-color: #8d99af;
+    margin-bottom: 1px;
+    height: 126px;
+    text-align: left;
+    padding: 0px 15px;
+    line-height: 126px;
+    cursor: pointer;
+    position: relative;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  .popular-categories .naccs .menu div.active,
+  .popular-categories .naccs .menu div.active .thumb {
+    background-color: #2b2d42;
+  }
+  
+
+  
+
+  .popular-categories .naccs .menu .thumb {
+    color: #fff;
+    font-size: 15px;
+    background-color: #8d99af;
+    margin-bottom: 1px;
+    width:  300px;
+    text-align: left;
+    padding: 0px 15px;
+    line-height: 126px;
+    cursor: pointer;
+    position: relative;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  .popular-categories .naccs  p {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+
+
+  .popular-categories .left-text .main-white-button a{
+    width: 100%;
+    text-align: center;
+  }
+  .popular-categories .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centre le contenu verticalement */
+    align-items: flex-start; /* Alignement du contenu à gauche */
+  }
+.popular-categories .left-text {
+  max-width: 60%; /* Ajustez la largeur maximale du texte */
+  margin-right: 20px; /* Ajoute de l'espace entre le texte et l'image */
+  margin-left: 20px;
+  flex: 1; /* Prend de l'espace mais peut se rétrécir */
+}

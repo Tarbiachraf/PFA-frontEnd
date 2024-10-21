@@ -1,0 +1,86 @@
+
+.contact_section {
+  color: #ffffff;
+  background-color: #2b2d42; /* Changez ceci pour la couleur bleue que vous voulez */
+
+}
+.contact_section .container .heading_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align form items to the center */}
+.contact_section .heading_container h2 {
+  color: #ffffff;
+  font-size: 2em; /* Adjust the size as needed */
+  margin-bottom: 0.5em; /* Spacing below the title */
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Spacing between letters for style */
+}
+.contact_section .row {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_section .container {
+  justify-content: center;
+}
+
+.contact_section .heading_container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+}
+
+.contact_section form .form-control {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding-left: 20px;
+  height: 45px;
+  margin: 5px 0;
+}
+#hada {
+  margin-right: 66px;
+}
+
+.contact_section button {
+  display: inline-block;
+  justify-content: center;
+  padding: 8px 20px;
+  width: 50%;
+  background-color: #a7a0d6;
+  color: #000;
+  border-radius: 30px;
+  text-transform: uppercase;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  margin-top: 1em; /* Spacing above the button */
+  margin-bottom: 1em; /* Spacing below the button */
+    align-self: center; /* Align button to the center */   
+  font-size: 15px;
+}
+
+.contact_section button:hover {
+  background-color: rgb(207, 206, 224);
+}
+
+.contact_section form .form-row {
+  display: flex;
+  justify-content: space-between; /* Add space between form fields */
+  width: 100%; /* Full width to ensure the spacing takes effect */
+  max-width: 500px; /* Max width of the form row */
+  margin-bottom: 1em; /* Spacing below each form row */
+}
+
+.contact_section form .form-row .form-group {
+  flex: 1; /* Chaque élément prend une partie égale de l'espace disponible */
+
+}
+
+.contact_section form .form-row .form-group input {
+  width: 100%; /* Les champs de texte prennent la largeur totale du conteneur parent */
+}
+
+

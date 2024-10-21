@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .tout::before {
+    content: ''; /* Pseudo-elements require the content property to display */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.719); /* Adjust the last value to make it darker/lighter */
+    z-index: 1; /* Position the overlay behind the content */
+  }
+  
+  
+  .tout {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./loginIage2.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+.Mywrapper {
+    width: 420px;
+    background: rgba(143, 169, 191, 0.795);
+    color:  rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 30px 40px;
+    animation: fadeIn 0.5s ease-in-out;
+    z-index: 2;
+
+}
+.Mywrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.Mywrapper .Myinput-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.Myinput-box input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(7, 0, 0);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.Myinput-box input::placeholder {
+    color: #000000;
+}
+.Myinput-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+
+}
+.Mywrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 4px;
+    width: 13%;
+    
+}
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.Mywrapper button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+
+}
+.Mywrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .error-message {
+    color: #721c24; /* une couleur rougeâtre pour le texte */
+    background-color: #f8d7da; /* une couleur rose clair pour l'arrière-plan */
+    border-color: #f5c6cb; /* une couleur rose pour la bordure */
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* une ombre douce pour la profondeur */
+    font-size: 14px;
+}
